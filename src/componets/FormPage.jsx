@@ -35,7 +35,6 @@ const FormPage = () => {
   useEffect(() => {
     if (editId !== undefined) {
       const findUser = allInformation.find((elm) => elm.id === +editId);
-      // console.log("user", findUser.fname)
 
         setInformation({
           id: editId,
