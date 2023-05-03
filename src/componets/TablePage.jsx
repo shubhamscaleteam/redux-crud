@@ -18,7 +18,7 @@ import { deleteInfo } from "../redux/action/action";
 
 const TablePage = () => {
   const navigate = useNavigate();
-
+ 
   const dispatch = useDispatch();
 
   const selector = useSelector((state) => state.allInformation);

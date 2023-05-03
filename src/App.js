@@ -1,4 +1,5 @@
-import "./App.css";
+      // console.log("user", findUser.fname)
+      import "./App.css";
 
 // react-bootstrep ....!!
 import "bootstrap/dist/css/bootstrap.min.css";
